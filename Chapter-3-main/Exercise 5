@@ -1,0 +1,17 @@
+#include <Stdio.h>
+int main ()
+{
+    float d,v,i;
+    char ch;
+    while (ch!='e')
+    {
+
+        printf("Enter distance and speed:\n");
+        scanf("%f %f",&d,&v);
+        printf("driving time is: %f \n",d/v);
+        ch=getchar();
+        if(ch=='e')
+            break;
+    }
+    return 0;
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()
+{
+    char c;
+    c=getchar();
+    while(c!='q') c=getchar();
+    printf("Found the q");
+    return 0;
+}

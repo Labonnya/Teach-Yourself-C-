@@ -1,0 +1,12 @@
+#include <Stdio.h>
+int main ()
+{
+    int i;
+    i=1;
+again:
+    printf("%d",i);
+    i++;
+    while(i<10)
+        goto again;
+    return 0;
+}

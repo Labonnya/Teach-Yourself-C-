@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main ()
+{
+    int a,i,j;
+    char c;
+    for(i=1;i<=10;i++)
+    {
+        c=getchar();
+        getchar();
+        for(j=1;j<=c;j++)
+          {
+              printf(".");
+              if(j==c) printf("\n");
+          }
+
+    }
+    return 0;
+}

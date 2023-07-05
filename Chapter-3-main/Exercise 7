@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+    float g,l;
+    char c;
+    do{ printf("Press e to exit\n");
+        printf("number of gallons:\n");
+        scanf("%f",&g);
+        printf("the of liters is: %f\n",g*3.7854);
+        c=getchar();
+    }  while(c!='e');
+    return 0;
+}

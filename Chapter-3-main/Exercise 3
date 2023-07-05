@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main ()
+{
+    int i,sum;
+    sum=1;
+    for(i=1; sum<=1000;i++)
+       {
+           printf("%d ",sum);
+        sum=sum*2;
+       }
+
+}

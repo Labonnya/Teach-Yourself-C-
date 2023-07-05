@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main ()
+{
+    char c;
+    do
+    {
+        printf("\nEnter a character, q to quit:");
+        c=getchar();
+        printf("\n");
+
+        switch(c)
+        {
+        case 'a':
+            printf ("Now is ");
+        case 'b':
+            printf("the time");
+        case 'c':
+            printf("for all good men");
+            break;
+        case 'd':
+            printf("The summer ");
+        case 'e':
+            printf("soldier ");
+        }
+    }
+    while (c!='q');
+    return 0;
+}

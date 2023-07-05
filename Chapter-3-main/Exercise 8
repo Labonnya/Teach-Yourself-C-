@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main ()
+{
+    printf("Mailing list menu\n1.Enter addresses\n2.Delete addresses\n3.Search the list\n4.Print the list\n5.Quit\n");\
+    int a;
+    do{
+        printf("category of mailing list(1-5):");
+        scanf("%d",&a);
+    } while(a!=5);
+    return 0;
+}

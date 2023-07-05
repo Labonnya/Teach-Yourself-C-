@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main ()
+{
+    char c;
+    do{
+    c=getchar();
+    } while (c!='q');
+    printf("Found the q");
+    return 0;
+}

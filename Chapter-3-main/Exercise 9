@@ -1,0 +1,26 @@
+#include <stdio.h>
+int primecheck(int a);
+int main()
+{
+    int i,v;
+    for(i=2;i<1000; i++)
+    {
+        v=primecheck(i);
+        if(v!=0)
+        printf("%d\n",v);
+    }
+    return 0;
+}
+
+int primecheck(int a)
+{
+    int x;
+    for(x=2;x<a;x++)
+    {
+        if(a%x==0)
+        {
+            if(a==x) return a;
+            else return 0;
+        }
+    }
+}

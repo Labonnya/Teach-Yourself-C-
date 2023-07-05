@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main ()
+{
+    int a;
+    printf("For area of a circle press1\nFor area of rectangle press 2\nFor area of triangle press 3");
+    scanf("%d",&a);
+    if (a==1)
+    {
+        int b;
+        printf("Enter radius of circle:");
+        scanf("%d",&b);
+        printf("area is %f",3.1416*b*b);
+        return 0;
+    }
+    if(a==2)
+    {
+        int c,d;
+        printf("Enter length and width of rectangle :");
+        scanf("%d %d",&c,&d);
+        printf("Area is %d", c*d);
+        return 0;
+    }
+    if(a==3)
+    {
+        float e,f;
+        printf("Enter height and base of triangle:");
+        scanf("%f %f",&e,&f);
+        printf("Area is %f", e*f/2);
+        return 0;
+    }
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main ()
+{
+    char ch;
+    printf("Enter your message:\n");
+    ch=getchar();
+    getchar();
+    while (ch!='\r')
+    {
+        printf("%c\n",ch+1);
+        ch=getchar();
+        getchar();
+    }
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main ()
+{
+    int i;
+    char c;
+    c='a';
+
+    for(i=0;c!='q';i++)
+    {
+        printf("pass:%d\n",i);
+        c=getchar();
+
+    }
+    return 0;
+}
