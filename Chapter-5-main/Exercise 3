@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+int main ()
+{
+    char bigstr[100]="",str[50];
+    for( ; ;)
+            {
+
+                gets(str);
+                strcat(str, "\n");
+                if(strlen(bigstr)+strlen(str)>=100) break;
+                 strcat(bigstr,str);
+            }
+    printf("%s",bigstr);
+    return 0;
+}
