@@ -1,0 +1,9 @@
+#include <Stdio.h>
+int main ()
+{
+    int i;
+    printf("Enter a long integer:\n");
+    scanf("%ld",&i);
+    printf("%ld\n",i);
+    return 0;
+}

@@ -1,0 +1,15 @@
+#include <Stdio.h>
+void soundspeed();
+int main ()
+{
+    soundspeed();
+    return 0;
+}
+void soundspeed ()
+{
+    float d;
+    printf("Enter distance:");
+    scanf("%f",&d);
+    printf("Required time is %f seconds",d/1129);
+
+}

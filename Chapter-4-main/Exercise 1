@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main ()
+{
+    unsigned long int i;
+    printf("Enter distance in mile:");
+    scanf("%lu",&i);
+    printf("Required time is %d seconds", i/186000 );
+    return 0;
+}

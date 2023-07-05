@@ -1,0 +1,15 @@
+#include <stdio.h>
+float soundspeed(float a);
+int main ()
+{
+    float d,t;
+    printf("Enter distance:");
+    scanf("%f",&d);
+    t=soundspeed(d);
+    printf("Required time is: %f seconds",t);
+    return 0;
+}
+float soundspeed (float a)
+{
+    return a/1129;
+}
